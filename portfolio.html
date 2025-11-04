@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Matt Kirkham</title>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+  <img src="selfie.jpeg" alt="Your Name" class="avatar" />
+      <h1>Matt Kirkham</h1>
+      <div class="subtitle"><i class="fa-solid fa-laptop-code"></i> Web Developer & Designer</div>
+      <nav>
+        <a href="#about"><i class="fa-solid fa-user"></i> About</a>
+        <a href="#projects"><i class="fa-solid fa-briefcase"></i>Projects</a>
+        <a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <div class="section-title"><i class="fa-solid fa-user"></i> About Me</div>
+      <p>
+        Hi! I'm <strong>Matt Kirkham</strong>, a rookie web developer learning to code and build my own websites. I love working with HTML, CSS and JavaScript, I'm always learning new technologies and enjoy collaborating on creative projects.
+      </p>
+    </section>
+
+    <section id="projects">
+      <div class="section-title"><i class="fa-solid fa-briefcase"></i> Projects</div>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>www.mattprocrasts.com</p>
+            <p>A personal portfolio to showcase my work, built with HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project-card">
+          <h3>My CV</h3>
+          <p>Please find my CV attached below, for your consideration.</p>
+          <div class="project-links">
+            <a href="CV2025.docx" class="fa-solid fa-file-lines"></i> CV</a>
+          </div>
+        </div>
+        <!--<div class="project-card">
+          <h3>Blog Platform</h3>
+          <p>A full-featured blog platform with Markdown support and user authentication.</p>
+        </div>-->
+      </div>
+    </section>
+      <div class="section-title"><i class="fa-solid fa-envelope"></i> Contact</div>
+      <ul class="contact-list">
+        <li><i class="fa-solid fa-envelope"></i> <a href="mailto:mattprocrasts@gmail.com">Email</a></li>
+        <li><i class="fa-brands fa-youtube"></i> <a href="https://youtube.com/@mattprocrasts" target="_blank" rel="noopener">YouTube</a></li>
+        <li><i class="fa-brands fa-twitter"></i> <a href="https://twitter.com/mattprocrasts" target="_blank" rel="noopener">Twitter</a></li>
+      </ul>
+    </section>
+  </div>
+  <footer>
+    &copy; <span id="year"></span> - Matt Kirkham
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
